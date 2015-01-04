@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		932A67DD1A59123A00717696 /* TKTESTSTATIC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 932A67DC1A59123A00717696 /* TKTESTSTATIC.h */; };
+		932A67DF1A59123A00717696 /* TKTESTSTATIC.m in Sources */ = {isa = PBXBuildFile; fileRef = 932A67DE1A59123A00717696 /* TKTESTSTATIC.m */; };
+		932A68041A59203600717696 /* TKTrige.m in Sources */ = {isa = PBXBuildFile; fileRef = 932A68031A59203600717696 /* TKTrige.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		932A67D71A59123900717696 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				932A67DD1A59123A00717696 /* TKTESTSTATIC.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		932A67D91A59123900717696 /* libTKTESTSTATIC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTKTESTSTATIC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		932A67DC1A59123A00717696 /* TKTESTSTATIC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKTESTSTATIC.h; sourceTree = "<group>"; };
+		932A67DE1A59123A00717696 /* TKTESTSTATIC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTESTSTATIC.m; sourceTree = "<group>"; };
+		932A67EA1A59123A00717696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932A67FA1A59182E00717696 /* confuse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = "<group>"; };
+		932A67FD1A5918F100717696 /* func.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = func.list; sourceTree = "<group>"; };
+		932A68021A59203600717696 /* TKTrige.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTrige.h; sourceTree = "<group>"; };
+		932A68031A59203600717696 /* TKTrige.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTrige.m; sourceTree = "<group>"; };
+		932A68051A5921FA00717696 /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
+		932A68061A59239400717696 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932A67D61A59123900717696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932A67D01A59123900717696 = {
+			isa = PBXGroup;
+			children = (
+				932A68061A59239400717696 /* PrefixHeader.pch */,
+				932A67FD1A5918F100717696 /* func.list */,
+				932A67FA1A59182E00717696 /* confuse.sh */,
+				932A67DB1A59123900717696 /* TKTESTSTATIC */,
+				932A67E81A59123A00717696 /* TKTESTSTATICTests */,
+				932A67DA1A59123900717696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		932A67DA1A59123900717696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932A67D91A59123900717696 /* libTKTESTSTATIC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932A67DB1A59123900717696 /* TKTESTSTATIC */ = {
+			isa = PBXGroup;
+			children = (
+				932A67DC1A59123A00717696 /* TKTESTSTATIC.h */,
+				932A67DE1A59123A00717696 /* TKTESTSTATIC.m */,
+				932A68021A59203600717696 /* TKTrige.h */,
+				932A68031A59203600717696 /* TKTrige.m */,
+				932A68051A5921FA00717696 /* codeObfuscation.h */,
+			);
+			path = TKTESTSTATIC;
+			sourceTree = "<group>";
+		};
+		932A67E81A59123A00717696 /* TKTESTSTATICTests */ = {
+			isa = PBXGroup;
+			children = (
+				932A67E91A59123A00717696 /* Supporting Files */,
+			);
+			path = TKTESTSTATICTests;
+			sourceTree = "<group>";
+		};
+		932A67E91A59123A00717696 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				932A67EA1A59123A00717696 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		932A67D81A59123900717696 /* TKTESTSTATIC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932A67ED1A59123A00717696 /* Build configuration list for PBXNativeTarget "TKTESTSTATIC" */;
+			buildPhases = (
+				932A67D51A59123900717696 /* Sources */,
+				932A67D61A59123900717696 /* Frameworks */,
+				932A67D71A59123900717696 /* CopyFiles */,
+				932A67F41A59142B00717696 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKTESTSTATIC;
+			productName = TKTESTSTATIC;
+			productReference = 932A67D91A59123900717696 /* libTKTESTSTATIC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932A67D11A59123900717696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "___TINKL___";
+				TargetAttributes = {
+					932A67D81A59123900717696 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 932A67D41A59123900717696 /* Build configuration list for PBXProject "TKTESTSTATIC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 932A67D01A59123900717696;
+			productRefGroup = 932A67DA1A59123900717696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932A67D81A59123900717696 /* TKTESTSTATIC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		932A67F41A59142B00717696 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PROJECT_DIR/confuse.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		932A67D51A59123900717696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932A68041A59203600717696 /* TKTrige.m in Sources */,
+				932A67DF1A59123A00717696 /* TKTESTSTATIC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		932A67EB1A59123A00717696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		932A67EC1A59123A00717696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932A67EE1A59123A00717696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.1;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TKTESTSTATIC/TKTESTSTATIC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		932A67EF1A59123A00717696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.1;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TKTESTSTATIC/TKTESTSTATIC-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		932A67D41A59123900717696 /* Build configuration list for PBXProject "TKTESTSTATIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932A67EB1A59123A00717696 /* Debug */,
+				932A67EC1A59123A00717696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932A67ED1A59123A00717696 /* Build configuration list for PBXNativeTarget "TKTESTSTATIC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932A67EE1A59123A00717696 /* Debug */,
+				932A67EF1A59123A00717696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 932A67D11A59123900717696 /* Project object */;
+}

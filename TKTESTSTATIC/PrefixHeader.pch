@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  TKTESTSTATIC
+//
+//  Created by tinkl on 4/1/15.
+//  Copyright (c) 2015年 ___TINKL___. All rights reserved.
+//
+
+#ifndef TKTESTSTATIC_PrefixHeader_pch
+#define TKTESTSTATIC_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    //添加混淆作用的头文件（这个文件名是脚本confuse.sh中定义的）
+    #import "codeObfuscation.h"
+
+#endif
+
+
+#endif
